@@ -1,0 +1,154 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Obscuro · Privacy Policy & Terms of Use</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root{
+    --accent:#0a84ff;
+    --bg:#f8f9fb;
+    --fg:#1d1d1f;
+    --card:#ffffff;
+    --radius:18px;
+  }
+  @media (prefers-color-scheme:dark){
+    :root{--bg:#1d1d1f;--fg:#f8f9fb;--card:#2c2c2e;}
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;background:var(--bg);color:var(--fg);line-height:1.6}
+  header{background:var(--accent);color:#fff;padding:3rem 1rem;text-align:center}
+  header h1{font-size:2.5rem;margin:0;font-weight:600}
+  header p{margin:.6rem 0 0;font-size:1rem;opacity:.9}
+  nav{display:flex;flex-wrap:wrap;gap:.5rem;justify-content:center;background:var(--card);box-shadow:0 3px 12px rgba(0,0,0,.05);padding:.75rem 1rem;position:sticky;top:0;z-index:100}
+  nav a{color:var(--accent);font-weight:500;text-decoration:none;padding:.25rem .75rem;border-radius:var(--radius)}
+  nav a:hover{background:var(--accent);color:#fff}
+  main{max-width:900px;margin:auto;padding:2rem 1.25rem}
+  section{background:var(--card);border-radius:var(--radius);padding:1.75rem 2rem;margin-bottom:2rem;box-shadow:0 3px 10px rgba(0,0,0,.04)}
+  h2{margin-top:0;font-size:1.6rem}
+  h3{margin-top:1.4rem;font-size:1.2rem}
+  ul,ol{padding-left:1.2rem}
+  code{background:rgba(0,0,0,.07);padding:0 .3em;border-radius:4px;font-size:.9em}
+  footer{text-align:center;font-size:.85rem;color:var(--fg);padding:2rem 1rem}
+</style>
+</head>
+<body>
+<header>
+  <h1>Obscuro</h1>
+  <p>Privacy Policy &amp; Terms of Use • Last updated 3 August 2025</p>
+</header>
+
+<nav>
+  <a href="#overview">Overview</a>
+  <a href="#privacy">Privacy</a>
+  <a href="#terms">Terms</a>
+  <a href="#faq">FAQ</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<main>
+<section id="overview">
+<h2>1&nbsp;· Overview</h2>
+<p><strong>Obscuro</strong> is a macOS utility that redacts faces, licence plates, and other sensitive pixels completely on‑device. We never collect, transmit, or process your images outside your Mac. This document explains your rights, our obligations, and the very limited circumstances under which any data leaves your device (spoiler: it never does).</p>
+</section>
+
+<section id="privacy">
+<h2>2&nbsp;· Privacy Policy</h2>
+
+<h3>2.1 Data We <em>Do Not</em> Collect</h3>
+<ul>
+<li>No personal data</li>
+<li>No analytics, crash logs, or usage statistics</li>
+<li>No identifiers, advertising or otherwise</li>
+<li>No network calls of any kind (the app is sandboxed without network entitlement)</li>
+</ul>
+
+<h3>2.2 Temporary Data We Process Locally</h3>
+<p>When you open an image Obscuro creates an ephemeral PNG copy in <code>~/Library/Containers/&lt;bundle-id&gt;/Data/tmp</code>. This file feeds Apple’s Vision/Core Image APIs and is securely deleted once you press <strong>Save</strong> or <strong>Cancel</strong>.</p>
+
+<h3>2.3 Third‑Party Services</h3>
+<p>Obscuro uses none.</p>
+
+<h3>2.4 GDPR • CCPA • COPPA</h3>
+<ul>
+<li><strong>GDPR</strong>: No personal data is collected or processed; rights of access, rectification, erasure, etc. do not apply. Delete the app to remove all local data.</li>
+<li><strong>CCPA</strong>: We do not “sell” or “share” any information.</li>
+<li><strong>COPPA</strong>: No data from children under 13 is collected; the app is safe for general audiences.</li>
+</ul>
+
+<h3>2.5 Security Measures</h3>
+<ul>
+<li>Runs inside Apple’s <em>App Sandbox</em></li>
+<li>No network entitlement; outbound traffic is impossible</li>
+<li>Temporary files are overwritten and deleted via <code>FileManager.removeItem</code></li>
+</ul>
+</section>
+
+<section id="terms">
+<h2>3&nbsp;· Terms of Use</h2>
+
+<h3>3.1 Acceptance</h3>
+<p>By downloading, installing, or using Obscuro ("the App") you agree to be bound by these Terms.</p>
+
+<h3>3.2 Licence</h3>
+<p>The App is licensed, not sold, to you for personal, non‑commercial, non‑transferable use on Apple‑branded hardware.</p>
+
+<h3>3.3 Disclaimer of Warranty</h3>
+<p>THE APP IS PROVIDED “AS IS” AND “AS AVAILABLE” WITHOUT WARRANTIES OF ANY KIND. TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE DEVELOPER DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON‑INFRINGEMENT.</p>
+
+<h3>3.4 Limitation of Liability</h3>
+<p>IN NO EVENT SHALL THE DEVELOPER BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR EXEMPLARY DAMAGES (INCLUDING LOSS OF DATA OR PROFITS) ARISING OUT OF OR IN CONNECTION WITH YOUR USE OF THE APP, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. TOTAL LIABILITY SHALL NOT EXCEED THE AMOUNT PAID FOR THE APP (IF ANY).</p>
+
+<h3>3.5 Indemnification</h3>
+<p>You agree to indemnify and hold harmless the developer from any claims, damages, or expenses arising from your misuse of the App or violation of these Terms.</p>
+
+<h3>3.6 Use Restrictions</h3>
+<ul>
+<li>No reverse engineering, decompiling, or disassembly</li>
+<li>No automated scraping or bulk processing without written consent</li>
+<li>No commercial redistribution or resale</li>
+<li>No claims of professional or medical accuracy</li>
+</ul>
+
+<h3>3.7 Governing Law & Jurisdiction</h3>
+<p>These Terms are governed by the laws of Switzerland, without regard to conflicts‑of‑law principles. Exclusive venue for any dispute lies with the competent courts of Zurich, Switzerland.</p>
+
+<h3>3.8 Severability & Waiver</h3>
+<p>If any provision is held unenforceable, the remainder remains in effect. Failure to enforce any right is not a waiver.</p>
+
+<h3>3.9 Changes</h3>
+<p>We may update these Terms at any time. Continued use after changes constitutes acceptance. The “Last updated” date at the top reflects the most recent changes.</p>
+</section>
+
+<section id="faq">
+<h2>4&nbsp;· FAQ</h2>
+
+<h3>Does Obscuro ever upload my photos?</h3>
+<p>No. All processing occurs locally; the binary has zero networking capabilities.</p>
+
+<h3>Why does the Save panel ask for file‑write permission?</h3>
+<p>macOS requires the <em>User‑Selected File Read/Write</em> entitlement to present a Save dialog. Obscuro only writes the file you choose.</p>
+
+<h3>Can I resize or move manual blur rectangles?</h3>
+<p>Not yet. Version 1 supports draw‑and‑undo. Resize and move are on the roadmap.</p>
+
+<h3>How do I erase every trace of a photo?</h3>
+<p>Press <strong>Cancel</strong> or quit the app; temporary files are deleted and working memory is cleared.</p>
+
+<h3>I found a bug. How do I report it?</h3>
+<p>Email <a href="mailto:info@splizzy.app">info@splizzy.app</a>. Please include steps to reproduce, macOS version, and a sample image if possible.</p>
+</section>
+
+<section id="contact">
+<h2>5&nbsp;· Contact</h2>
+<p>Email: <a href="mailto:info@splizzy.app">info@splizzy.app</a><br>
+</section>
+
+</main>
+
+<footer>
+  &copy; 2025 Obscuro. No personal data is ever collected. Built with Swift &amp; privacy in Switzerland.
+</footer>
+</body>
+</html>
